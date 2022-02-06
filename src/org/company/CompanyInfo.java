@@ -18,7 +18,11 @@ public class CompanyInfo {
 	}
 	private void companyPhno() {
 		System.out.println("companyPhno:044 41041055");
-		
+	}
+	
+	private void companyEmailId() {
+		System.out.println("compnay email id:cts@global.com");
+		// TODO Auto-generated method stub
 	}
 	public static void main(String[] args) {
 		CompanyInfo a = new CompanyInfo();
@@ -26,6 +30,8 @@ public class CompanyInfo {
 		a.companyId();
 		a.companyAddress();
 		a.companyPhno();
+		a.companyEmailId();
+		
 	}
 
 }
