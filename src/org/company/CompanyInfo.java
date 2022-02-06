@@ -16,11 +16,17 @@ public class CompanyInfo {
 		// TODO Auto-generated method stub
 
 	}
+	private void companyEmailId() {
+		System.out.println("compnay email id:cts@global.com");
+		// TODO Auto-generated method stub
+
+	}
 	public static void main(String[] args) {
 		CompanyInfo a = new CompanyInfo();
 		a.companyName();
 		a.companyId();
 		a.companyAddress();
+		a.companyEmailId();
 	}
 
 }
