@@ -28,7 +28,8 @@ public class CompanyInfo {
 		System.out.println("company location: India");
 		// TODO Auto-generated method st
 	}
-	private void companyvendorcode() {
+	
+	private void companyvendorid() {
 		System.out.println("company vendor code : a123");
 		// TODO Auto-generated method stub
 
@@ -42,7 +43,7 @@ public class CompanyInfo {
 		a.companyPhno();
 		a.companyEmailId();
 		a.companylocation();
-	    a.companyvendorcode();
+	    a.companyvendorid();
 
 		
 		
